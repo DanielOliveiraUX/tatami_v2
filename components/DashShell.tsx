@@ -2,7 +2,7 @@
 // Arquivo: tatami/components/DashShell.tsx
 
 import { useEffect, useState } from 'react'
-import { createClient } from '@/src/lib/supabase/client'
+import { createClient } from '@/lib/supabase/client'
 import { useRouter } from 'next/navigation'
 
 const ROLE_COLORS: Record<string, string> = {
